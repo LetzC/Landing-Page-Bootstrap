@@ -17,6 +17,12 @@ form {
   height: auto;
 }
 
-// .topLogo {
-//   width: 185px;
-// }
+.btnSend {
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover {
+    background-color: $button-color;
+    color: white;
+  }
+}
