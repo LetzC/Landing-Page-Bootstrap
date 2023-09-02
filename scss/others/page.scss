@@ -1,1 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+form {
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+}
+
+// .topLogo {
+//   width: 185px;
+// }
