@@ -13,8 +13,11 @@ body {
 
 form {
   background-color: $background-color;
-  width: 450px;
   height: auto;
+}
+
+.formContainer {
+  width: 500px;
 }
 
 .btnSend {
