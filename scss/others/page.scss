@@ -9,15 +9,15 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   color: white;
+  overflow-x: hidden;
 }
 
 form {
   background-color: $background-color;
-  height: auto;
 }
 
 .formContainer {
-  width: 500px;
+  width: 30rem;
 }
 
 .btnSend {
@@ -27,5 +27,11 @@ form {
   &:hover {
     background-color: $button-color;
     color: white;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    height: 100%;
   }
 }
